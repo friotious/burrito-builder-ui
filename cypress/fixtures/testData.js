@@ -1,5 +1,5 @@
 
-{ "orders": [
+ const testOrders = [
     {
       "id": 1,
       "name": "Pat",
@@ -35,4 +35,16 @@
       ]
     }
   ]
-}
+
+  const testPost = {
+    "id": 11,
+    "name": "Rio",
+    "ingredients": [
+      "steak",
+      "queso fresco",
+      "lettuce",
+      "jalapeno"
+    ]
+  }
+
+  export { testOrders, testPost }
